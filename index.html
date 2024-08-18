@@ -5,10 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>module 13 tailwind</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<style>
+    .font-roboto {
+  font-family: "Roboto", sans-serif;
+ 
+}
+.font-bebas-neue {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+</style>
 
 </head>
-<body>
-    <header class="bg-[#FFFBF0] pl-4">
+<body class="font-roboto">
+    <header class="bg-[#FFFBF0] pl-4 ">
         
             <nav class="flex justify-between p-[47px]"> 
 <div class="max-w-xs">
@@ -25,9 +38,9 @@
             </nav>
             <div class="md:flex gap-[200px] p-5">
               <div>
-                <h2 class="text-7xl uppercase"> <span class="text-orange-400">Be the Penguins</span> <br>
+                <h2 class="text-7xl uppercase font-bebas-neue scroll-my-3"> <span class="text-orange-400">Be the Penguins</span> <br>
                     of Winter</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing 
+                    <p class="py-3">Lorem Ipsum is simply dummy text of the printing <br>
                         and typesetting industry.</p>
                         <button class="bg-[green] py-4 px-8 rounded-2xl font-medium text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-white inline">
